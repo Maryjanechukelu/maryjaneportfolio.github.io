@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maryjane Chukelu Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">Maryjane Chukelu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Maryjane Chukelu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="img/pro_image-removebg.png" alt="Maryjane profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Maryjane Chukelu</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('img/MJ CV.docx')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="img/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='http://linkedin.com/in/maryjane-chukelu'" />
+        <img src="img/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/maryjanechukelu'" />
+      </div>
+    </div>
+    <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" />
+  </section>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="abt-title">ABOUT ME</h1>
+    <div class="section-container">
+      <div class="about__pic-container">
+        <img src="img/girly2.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about__data">
+        <p class="about__description"> A budding Frontend Developer with knowledge
+          of HTML/CSS/JAVASCRIPT and practical experience on building and replicating
+          functional and responsive web applications.
+          An avid learner seeking opportunities to get hands-on experiences as a Frontend Developer.
+        </p>
+
+        <div class="about__info">
+          <div>
+            <span class="about__info-title">02+</span><br>
+            <span class="about__info-name">years <br> experience</span>
+          </div>
+          <div>
+            <span class="about__info-title">05+</span><br>
+            <span class="about__info-name">Completed <br> project</span>
+          </div>
+          <div>
+            <span class="about__info-title">02+</span><br>
+            <span class="about__info-name">Open Source Projects <br> Contributed</span><br><br>
+          </div>
+        </div>
+        </button>
+        <button class="btn btn-color-1 abt-btn" onclick="location.href='https://github.com/maryjanechukelu'">
+          Projects
+        </button>
+      </div>
+      <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
+  <section>
+    <div class="skill__section" id="skills">
+      <h2 class="skill__title">SKILLS</h2>
+      <p class="skill__subtitle">Technologies I'm Proficient with</p>
+    </div>
+    <div class="skill__container container grid">
+      <marquee behavior="1.5s" direction="Right">
+        <img src="img/github.png" alt="">
+        <img src="img/Bootstrap.png" alt="">
+        <img src="img/Vuejs.png" alt="">
+        <img src="img/js.png" alt="">
+        <img src="img/python1.png" alt="" class="react">
+        <img src="img/react.jpeg" alt="">
+        <img src="img/css.png" alt="">
+        <img src="img/html5.png" alt="">
+      </marquee>
+    </div>
+    <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section>
+    <div class="projects" id="projects">
+      <h2 class="skill__title">PROJECTS</h2>
+      <p class="skill__subtitle">These are some of the projects I have worked on and contributed to</p>
+      <div class="Container1">
+        <div class="card1">
+          <img src="img/airbnb1.jpeg" alt="">
+          <h3>AIRBNB Clone</h3>
+          <>The Airbnb clone project is a comprehensive online platform that facilitates short-term lodging and tourism
+            experiences.<br> HTML CSS & JAVASCRIPT </p>
+            <p> Source: <a href="https://github.com/Maryjanechukelu/AirBnB_clone" target="_blank">Click Here</a>
+            </p>
+            <p>Demo: <a href="" target="_blank">AIRBNB Clone</a></p>
+        </div>
+        <div class="card1">
+          <img src="img/to-do1.jpeg" alt="">
+          <h3>Duty Dashboard</h3>
+          <p>The Duty Dashboard App is a comprehensive to-do list application designed to help users manage their tasks
+            and stay organized.<br> HTML CSS & JAVASCRIPT</p>
+          <p>Source: <a href="https://github.com/Maryjanechukelu/Duty-Dashboard-" target="_blank"> Click Here</a>
+          </p>
+          <p>Demo: <a href="" target="_blank">Duty Dashboard
+            </a></p>
+        </div>
+        <div class="card1">
+          <img src="img/portfolio img.png" alt="">
+          <h3>My Portfolio</h3>
+          <p>This is a simple functional portfolio website.
+            It gives basic informations like skills and projects I have worked on.
+            <br>HTML CSS & JAVASCRIPT
+          </p>
+          <p>Source: <a href="https://github.com/Maryjanechukelu/maryjanechukelu.github.io" target="_blank"> Click
+              Here</a>
+          </p>
+          <p>Demo: <a href="" target="_blank">My Portfolio
+            </a></p>
+        </div>
+        <div class="card1">
+          <img src="img/agro-cart.png" alt="">
+          <h3>Agro Cart</h3>
+          <p>This is an eCommerce web application with backend implentations. Stack used is PYTHON FLASK JAVASCRIPT
+            REACTJS</p>
+          <p>Source: <a href="https://github.com/Franklin-tech01/agro-cart" target="_blank">Click Here</a>
+          </p>
+          <p>Demo: <a href="" target="_blank">Agro Cart
+            </a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="contact__section" id="contact">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="form__container">
+      <form action="/send-email" method="POST">
+        <input type="text" name="name" id="email" placeholder="Name">
+        <input type="email" id="email" name="email" placeholder="Email">
+        <textarea name="area" id="text" cols="30" rows="10" placeholder="Input Message"></textarea>
+        <a href="mailto:maryjanechukelu@gmail.com" type="submit" class="button__sumbit" id="btn1"> Submit</a>
+      </form>
+    </div>
+  </section>
+</body>
+<footer>
+  <div class="footer-footer">
+    <p>Made with 💝 by Maryjane<span class="smaller">© 2023</span></p>
+  </div>
+</footer>
+<script src="index.js"></script>
+
+</html>
