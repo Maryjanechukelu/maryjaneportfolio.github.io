@@ -414,10 +414,10 @@ section {
   width: 100%;
   height: auto;
 }
-.contact__section h2 {
+/* .contact__section h2 {
   font-size: 50px;
   text-align: center;
-}
+} */
 
 .form__container {
   display: flex;
@@ -681,4 +681,11 @@ footer p {
   .abt-btn {
     margin-left: 110px;
   }
+
+  .abt-title, .skill__title {
+    font-size: 30px;
+  }
+
+
+
 }
