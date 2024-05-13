@@ -361,6 +361,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 
 /* ===== CONTACT =====*/
@@ -458,6 +459,9 @@ img {
   }
   .button {
     padding: 10px;
+  }
+  .section-text {
+    padding: 15px;
   }
 }
 @media screen and (min-width: 576px) {
