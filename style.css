@@ -155,6 +155,7 @@ img {
 }
 .nav__logo {
   color: var(--second-color);
+ 
 }
 .nav__toggle {
   color: var(--second-color);
@@ -336,6 +337,10 @@ img {
 }
 .skills__ux {
   width: 85%;
+}
+
+.skills__vuejs {
+  width: 75%;
 }
 .skills__img {
   border-radius: 0.5rem;
